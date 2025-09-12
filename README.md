@@ -109,7 +109,6 @@ bash scripts/download_gse272042.sh
 
 ## Next Steps
 
-* Extend models to **Random Forests** and **Gradient Boosted Trees**.
 * Incorporate **neural networks** for more complex nonlinear patterns.
 * Explore **cross-cohort validation** with TCGA glioma expression data.
 * Perform **pathway enrichment analysis** with GSEA using `.rnk` files.
