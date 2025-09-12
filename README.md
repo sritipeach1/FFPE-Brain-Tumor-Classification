@@ -59,11 +59,13 @@ bash scripts/download_gse272042.sh
       * Ensemble of decision trees with class balancing
       * Captures non-linear interactions between genes
       * Metrics compared against Logistic Regression
+        
    **Gradient Boosting**
-
+   
       *Boosted decision trees for stronger performance on small datasets
       *Provides feature importance analysis for interpretation
       *Metrics included in overall comparison
+   
    **Model Comparison**
    
       *Side-by-side evaluation of all three models
