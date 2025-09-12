@@ -22,7 +22,7 @@ FFPE-Brain-Tumor-Classification/
 
 ---
 
-## 🔬 Data
+## Data
 
 * **Dataset:** [GSE272042 (NCBI GEO)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE272042)
 * **Samples:** 153 FFPE brain tumors
@@ -37,7 +37,7 @@ bash scripts/download_gse272042.sh
 
 ---
 
-## ⚙️ Pipeline Overview
+## Pipeline Overview
 
 1. **Preprocessing**
 
@@ -68,7 +68,7 @@ bash scripts/download_gse272042.sh
 
 ---
 
-## 📊 Key Results
+## Key Results
 
 * **Classification metrics (test set):**
 
@@ -87,7 +87,7 @@ bash scripts/download_gse272042.sh
 
 ---
 
-## 🚀 Next Steps
+## Next Steps
 
 * Extend models to **Random Forests** and **Gradient Boosted Trees**.
 * Incorporate **neural networks** for more complex nonlinear patterns.
