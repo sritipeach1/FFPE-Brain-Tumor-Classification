@@ -62,15 +62,15 @@ bash scripts/download_gse272042.sh
         
    **Gradient Boosting**
    
-      *Boosted decision trees for stronger performance on small datasets
-      *Provides feature importance analysis for interpretation
-      *Metrics included in overall comparison
+      * Boosted decision trees for stronger performance on small datasets
+      * Provides feature importance analysis for interpretation
+      * Metrics included in overall comparison
    
    **Model Comparison**
    
-      *Side-by-side evaluation of all three models
-      *Results saved in results/model_comparison.csv
-      *Best model selected for confusion matrix and reliability plots
+      * Side-by-side evaluation of all three models
+      * Results saved in results/model_comparison.csv
+      * Best model selected for confusion matrix and reliability plots
 
 4. **Visualization**
 
