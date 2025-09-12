@@ -1,11 +1,4 @@
 # FFPE-Brain-Tumor-Classification
-A machine learning model for classifying FFPE-derived brain tumor samples from RNA-seq data.
-
-Perfect — a strong **README.md** will make your repo look polished and professional. Below is a draft you can copy into your README file. It’s structured, concise, and highlights your work while giving enough detail for others to understand and reproduce it.
-
----
-
-# 🧠 FFPE-Brain-Tumor-Classification
 
 A machine learning pipeline for classifying **FFPE-derived brain tumor RNA-seq samples** (GSE272042) into molecular subtypes, and evaluating generalization against TCGA glioma cohorts.
 Includes **data preprocessing, feature selection, classification, differential gene expression (DGE) analysis, and visualization**.
@@ -101,8 +94,5 @@ bash scripts/download_gse272042.sh
 * Explore **cross-cohort validation** with TCGA glioma expression data.
 * Perform **pathway enrichment analysis** with GSEA using `.rnk` files.
 
----
-
-## 👩‍💻 Authors
 
 
