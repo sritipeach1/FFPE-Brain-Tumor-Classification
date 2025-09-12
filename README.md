@@ -48,16 +48,34 @@ bash scripts/download_gse272042.sh
 
 2. **Classification**
 
-   * Train **Logistic Regression** with class weights
-   * Evaluate on train/val/test split
-   * Metrics: F1, balanced accuracy, AUROC
+   **Logistic Regression (baseline)**
+   
+     * Trained with class weights to handle imbalance
+     * Evaluate on train/val/test split
+     * Metrics: F1, balanced accuracy, AUROC
+       
+   **Random Forest**
+   
+      * Ensemble of decision trees with class balancing
+      * Captures non-linear interactions between genes
+      * Metrics compared against Logistic Regression
+   **Gradient Boosting**
 
-3. **Visualization**
+      *Boosted decision trees for stronger performance on small datasets
+      *Provides feature importance analysis for interpretation
+      *Metrics included in overall comparison
+   **Model Comparison**
+   
+      *Side-by-side evaluation of all three models
+      *Results saved in results/model_comparison.csv
+      *Best model selected for confusion matrix and reliability plots
+
+4. **Visualization**
 
    * PCA and UMAP projections of samples
    * Confusion matrix + reliability diagrams
 
-4. **Differential Gene Expression (DGE)**
+5. **Differential Gene Expression (DGE)**
 
    * Contrast analyses:
 
