@@ -1,0 +1,2 @@
+macro_f1,balanced_accuracy,ovr_auroc,n_test
+0.515351,0.458333,0.771534,23
